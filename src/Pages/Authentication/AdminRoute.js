@@ -1,7 +1,6 @@
 import React from 'react';
 import { Spinner, Stack } from 'react-bootstrap';
 import { Navigate, useLocation } from 'react-router-dom';
-import useAuth from '../../Hooks/useAuth';
 import useFirebase from '../../Hooks/useFirebase';
 
 const AdminRoute = ({children, ...rest}) => {
